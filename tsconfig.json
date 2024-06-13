@@ -1,0 +1,13 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2015", // Set the target to es2015 or a later version
+    "module": "es2015", // Set the module to es2015 or a later version
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@env": ["node_modules/react-native-dotenv"]
+    }
+  }
+}
