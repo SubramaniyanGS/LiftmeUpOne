@@ -13,7 +13,7 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       console.log('Attempting to log in...');
-      const response = await axios.post('http://192.168.240.114:8080/auth/login', {
+      const response = await axios.post('https://spring-boot-l2er.onrender.com/auth/login', {
         email,
         password,
       });

@@ -13,7 +13,7 @@ const Signup = () => {
 
   const handleSignup = async () => {
     try {
-      const response = await axios.post('http://192.168.240.114:8080/auth/signup', {
+      const response = await axios.post('https://spring-boot-l2er.onrender.com/auth/signup', {
         name,
         email,
         phone,
