@@ -1,7 +1,6 @@
 module.exports = {
-  presets: ['module:@react-native/babel-preset'],
+  presets: ['module:metro-react-native-babel-preset'],
   plugins: [
-    '@babel/plugin-transform-class-static-block',
     [
       'module:react-native-dotenv',
       {
@@ -15,6 +14,6 @@ module.exports = {
         verbose: false,
       },
     ],
-    // other plugins as needed
+    // Add any other plugins you might need
   ],
 };

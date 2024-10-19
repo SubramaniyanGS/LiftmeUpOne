@@ -29,7 +29,7 @@ const SplashScreen: React.FC = () => {
   }, []);
 
   return (
-    <View style={authStyles.backgroundStyles}>
+    <View style={authStyles.backgroundStyles} testID="splash-screen">
       <Image source={appImages.APP_LOGO} style={authStyles.logoStyle} />
     </View>
   );

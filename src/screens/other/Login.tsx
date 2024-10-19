@@ -43,7 +43,7 @@ const Login = () => {
 
   return (
     <ImageBackground source={appImages.BACKGROUND} style={styles.backgroundImage}>
-      <View style={styles.container}>
+      <View style={styles.container} testID="login-page">
         <Text style={styles.title}>Login</Text>
         <TextInput
           style={styles.input}
